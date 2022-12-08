@@ -20,3 +20,29 @@ onoremap k n
 nnoremap l i
 xnoremap l i
 onoremap l i
+
+" Same but capitalized
+nnoremap N J
+xnoremap N J
+onoremap N J
+nnoremap E K
+xnoremap E K
+onoremap E K
+nnoremap I L
+xnoremap I L
+onoremap I L
+nnoremap J E
+xnoremap J E
+onoremap J E
+nnoremap K N
+xnoremap K N
+onoremap K N
+nnoremap L I
+xnoremap L I
+onoremap L I
+
+" The best thing ever
+inoremap <Capslock> <Esc>
+
+" Second best thing ever
+nnoremap ; :
