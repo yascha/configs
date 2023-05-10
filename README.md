@@ -1,10 +1,13 @@
-This is a vim config for colemak.
-It is written without '|' operators so that VSCode Vim extension can parse it.
+This repo contains my configuration files.
 
-Load it in your .vimrc via source /path/to/yascha_colemak.vim
+Currently it only has vim and neovim configs for colemak.
+They are written without '|' operators so that VSCode Vim extension can parse them.
 
+For vim:
+Load the remappings in your .vimrc via source /path/to/yascha_colemak.vim
 
-
+For neovim:
+Just use init.vim.
 
 I like to use the following in keybindings.json to bind tab to esc:
   {
